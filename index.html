@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script type="module" src="../node_modules/xturtle/index.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div>
+      <div>
+        <x-turtle
+          id='canvas'
+          width='600'
+          height='550'
+          canvas-class="canvas"
+          sprite-scale="0.2"></x-turtle>
+      </div>
+      <div style="position: absolute;margin-top: 564px;display: flex;justify-content: space-around">
+        <button id="start-turtle">Create Turtle</button>
+        <button style="margin-left: 15px;" id="forward-50">Forward 50</button>
+        <button style="margin-left: 15px;" id="right-90">Right 90</button>
+        <button style="margin-left: 15px;" id="left-90">Left 90</button>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script type="text/javascript" src="button-turtle.js"></script>
+  </footer>
+</html>

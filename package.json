@@ -1,0 +1,19 @@
+{
+  "name": "TurtleTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ThalissonMelo/TurtleTest.git",
+  "author": "ThalissonBMelo <thalisson.melo@creditcorp.com.br>",
+  "license": "MIT",
+  "description": "WebComponent to render a turtle canvas in web applications",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "xturtle": "^1.1.0"
+  }
+}
